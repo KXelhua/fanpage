@@ -17,3 +17,34 @@ a {
     width: 30px;
     margin: 15px;
 }
+
+.header{
+    display:flex;
+    justify-content:center;
+}
+
+.navbar{
+    display:flex;
+    justify-content:space-around; 
+}
+
+.gallery{
+    display:flex;
+    justify-content:space-around;
+}
+
+.content{
+    display:flex;
+    justify-content:space-around;
+}
+
+.thumbnail{
+    height:100px;
+    width:100px;
+}
+
+.footer{
+    display:flex;
+    justify-content:space-around;
+}
+
