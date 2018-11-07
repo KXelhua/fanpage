@@ -4,7 +4,8 @@ html {
 
 body {
     height: 100%;
-    
+    background: linear-gradient(to left, #99ccff 0%, #ff99cc 100%);
+    font-family: 'Lobster', cursive;
 }
 a {
     text-decoration: none;
@@ -21,11 +22,14 @@ a {
 .header{
     display:flex;
     justify-content:center;
+    font-size:24px;
+    margin:15px;
 }
 
 .navbar{
     display:flex;
     justify-content:space-around; 
+    margin:15px;
 }
 
 .gallery{
@@ -38,9 +42,9 @@ a {
     justify-content:space-around;
 }
 
-.thumbnail{
-    height:100px;
-    width:100px;
+.thumbnail-image{
+    height:200px;
+    width:300px;
 }
 
 .footer{
