@@ -4,13 +4,14 @@ html {
 
 body {
     height: 100%;
-    background-image:url("https://pbs.twimg.com/media/DkOD4O2VAAAwXNa.jpg");
+    background-image:url("https://wallpaperaccess.com/full/2249219.png");
     background-size: cover;
     font-family: 'Lobster', cursive;
 }
 
 a {
     text-decoration: none;
+    color: rgb(245, 214, 37);
 }
 
 .main {
@@ -58,6 +59,7 @@ a {
     height:300px;
     width:325px; 
     border:8px double black;
+    object-fit:cover;
 }
 
 .thumbnail{
@@ -99,13 +101,13 @@ a {
 }
 
 .flip-card-front {
-  background:url("https://consequenceofsound.net/wp-content/uploads/2019/04/BTS-Map-of-the-Soul-Persona.png?w=380&h=380&crop=1");
+  background:url("https://upload.wikimedia.org/wikipedia/en/2/21/BTS_-_Map_of_the_Soul_7.png");
   background-size: cover;
   color: black;
 }
 
 .flip-card-back {
-  background-color: blue;
+  background-color: rgba(0, 0, 255, 0.514);
   color: white;
   transform: rotateY(180deg);
 }
@@ -113,12 +115,13 @@ a {
 h1{
     transform: translate(0px,80px);
     font-size:50px;
-    backface-visibility: hidden;
 }
 
 p{
     font-size: 25px;
-    color:purple;
+    color:rgb(105, 21, 105);
+    -webkit-text-stroke-width: 0.5px;
+    -webkit-text-stroke-color: black;
 }
 
 h2{
@@ -150,4 +153,30 @@ h2{
 
 .details{
     display: block;
+}
+
+#jin{
+  object-fit: cover;
+}
+#jimin{
+  object-fit: cover;
+}
+#jungkook{
+  object-fit: cover;
+}
+#namjoon{
+  object-fit: cover;
+}
+#hobi{
+  object-fit: cover;
+}
+#suga{
+  object-fit: cover;
+}
+#v{
+  object-fit: cover;
+}
+
+#copyright{
+  color: rgb(245, 214, 37);
 }
