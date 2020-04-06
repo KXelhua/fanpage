@@ -1,5 +1,3 @@
 language = "html"
 language = "css"
-run = "index"
-run = "about"
 run = "gallery"
